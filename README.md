@@ -32,7 +32,7 @@ The code to produce this analysis can be seen here:
 ![](https://github.com/lavec0324/Amazon-Vine-Analysis/blob/main/Resources/Code2.PNG)
 ![](https://github.com/lavec0324/Amazon-Vine-Analysis/blob/main/Resources/Code3.PNG)
 
-##Summary 
+## Summary 
 
 The results do seem to support that paid reviews could bias the percentage of overall ratings higher as the paid was almost 11% higher 5 star ratings.  It is possible that since the amount of vine paid reviews were much lower that the results could have also been skewed.  In addition to this analysis it might be good to also pull in 4 star ratings as this would also show top reviews.  It might also be good to determine the average of all results to see if the overall average of results was higher.
 
