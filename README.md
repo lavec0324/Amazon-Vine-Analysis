@@ -2,6 +2,41 @@
 Module 16
 
 ## Overview of the Analysis
+The purpose of this analysis is to determine based on tools review data whether or not there is a bias for a higher rating based on whether that rating is paid for or not.  We used amazon review data for tools that are stored in an AWS S3 bucket.  That data can be found at this link:
+
+
+
+## Results
+
+Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+
+How many Vine reviews and non-Vine reviews were there?
+* After the initial filtering for total votes >= 20 and at least a 50% helpful votes to total votes, there were 31,737 reviews.
+* Of those:
+	* 285 were paid vine reviews
+	* 31,452 were non-paid vine reviews
+
+How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+* From the above filtered lists there were:
+	* 163 were 5 star ratings for paid vine reviews
+	* 14,603 were 5 star ratings for non-paid vine reviews
+
+What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+* From the above 5 star ratings:
+	* 57.2% were paid reviews
+	* 46.4% were non-paid reviws
+
+##Summary 
+
+Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+
+
+
+
+
+
+
 
 <!--
 
